@@ -1,0 +1,12 @@
+{
+    "name": "autoload/namespacer",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}

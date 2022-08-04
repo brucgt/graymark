@@ -9,6 +9,11 @@ class MainController
         view('pages/home');
     }
 
+    public static function products()
+    {
+        view('pages/products');
+    }
+
     public static function about()
     {
         echo "about";

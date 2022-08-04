@@ -13,5 +13,4 @@ foreach ($routes as $routePath => $action)
         exit();
     }
 }
-
 ?>

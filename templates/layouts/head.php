@@ -4,3 +4,4 @@
 <link rel="stylesheet" href="<?= url('assets/css/regular.css?t='.uniqid()) ?>">
 <script src="https://kit.fontawesome.com/c5c0a92a09.js" crossorigin="anonymous"></script>
 <script src="<?= url('assets/js/main.js') ?>" defer></script>
+<script src="<?= url('src/header.js') ?>" defer></script>

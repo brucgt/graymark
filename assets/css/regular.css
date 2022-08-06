@@ -1,0 +1,40 @@
+.nav-menu {
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   width: 100%;
+   top: 4rem;
+   background-color: #f9fafb;
+   text-align: center;
+   transition: .2s;
+   left: -100%;
+   padding: 0 40px;
+   box-shadow: 0 1px 5px gray;
+
+}
+.nav-menu.active {
+   left: 0;
+}
+
+.nav-item {
+   padding: 10px 0;
+   font-size: 1.2rem;
+   border-bottom: 1px solid #9ca3af;
+}
+
+.nav-item:last-child {
+   border: none;
+}
+
+.dropdown-menu {
+   height: 0;
+   overflow: hidden;
+   transition: .2s;
+}
+.dropdown-menu.active {
+   height: 50px;
+}
+
+.dropdown-toggle a.active {
+   background-color: #9ca3af;
+}

@@ -11,6 +11,6 @@ class MainController
 
     public static function about()
     {
-        echo "about";
+        view('pages/about');
     }
 }

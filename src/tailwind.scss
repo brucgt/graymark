@@ -1,28 +1,26 @@
 /* Product Homepage */
-.product-banner {
-    @apply bg-center bg-no-repeat transition-all duration-300 bg-[length:auto_110%] hover:bg-[length:auto_100%];
+.product-card {
+    @apply mx-8 my-4 bg-center bg-no-repeat transition-all duration-300 bg-[length:auto_110%] hover:bg-[length:auto_100%];
 }
-.product-banner:hover .banner-info h5 {
+.product-card:hover .card-info h5 {
     @apply text-[2.5rem];
 }
-.product-banner:hover .banner-info p {
+.product-card:hover .card-info p {
     @apply text-[1.75rem];
 }
-.product-banner.bg-43-portrait {
+.product-card.bg-43-portrait {
     @apply sm:bg-[length:110%_auto] sm:hover:bg-[length:100%_auto];
 }
-.product-banner.bg-43-landscape {
+.product-card.bg-43-landscape {
     @apply md:bg-[length:110%_auto] md:hover:bg-[length:100%_auto];
 }
-.product-banner.bg-169-landscape {
+.product-card.bg-169-landscape {
     @apply lg:bg-[length:110%_auto] lg:hover:bg-[length:100%_auto];
 }
-.product-banner > div {
-    @apply block;
+.product-card > div {
+    @apply block relative min-h-[60vh] bg-black bg-opacity-50;
 }
-.product-banner > div {
-    @apply block relative min-h-[80vh] bg-black bg-opacity-50;
-}
+/*
 .product-banner .banner-info {
     @apply flex flex-col items-center absolute left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] text-white transition-all
         md:items-start md:left-[10%] md:top-3/4 md:translate-x-0;
@@ -37,7 +35,7 @@
 .product-banner .banner-info a {
     @apply inline-block px-8 py-4 text-xl bg-white rounded-full text-black font-bold hover:brightness-90
         lg:text-2xl;
-}
+} */
 .product-list-all {
     @apply p-4;
 }
@@ -96,5 +94,4 @@
     --primary-gray: #F8F9FB;
     --agriculture-primary: ;
     --agriculture-accent: ;
-
 }

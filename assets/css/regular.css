@@ -27,12 +27,15 @@
 }
 
 .dropdown-menu {
-   height: 0;
+   max-height: 0;
    overflow: hidden;
-   transition: .2s;
+   transition: max-height 0.2s ease-out;
+   width:180px;
 }
 .dropdown-menu.active {
-   height: 50px;
+   max-height: 500px;
+   transition: max-height 0.2s ease-in;
+   background-color: #f9fafb;
 }
 
 .dropdown-toggle a.active {

@@ -14,6 +14,11 @@ class MainController
         view('pages/products');
     }
 
+    public static function agriculture()
+    {
+        view('pages/products/agriculture');
+    }
+
     public static function about()
     {
         view('pages/about');

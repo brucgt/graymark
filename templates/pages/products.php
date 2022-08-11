@@ -10,39 +10,11 @@
     <?php view('layouts/header') ?>
 
     <div class="w-full">
-        <div class="product-card bg-43-landscape" style="background-image: url('<?= url('assets/img/others/mbr.jpg') ?>');">
-            <div class="card-info">
-                <h5>Agriculture Products</h5>
-                <p>[text]</p>
-                <a href="#">View</a>
-            </div>
-        </div>
-        <div class="product-card bg-43-portrait" style="background-image: url('<?= url('assets/img/products/agriculture/magda-ehlers.jpeg') ?>');">
-            <div class="card-info">
-                <h5>GM Market</h5>
-                <p>[text]</p>
-                <a href="#">View</a>
-            </div>
-        </div>
-        <div class="product-card bg-43-landscape" style="background-image: url('<?= url('assets/img/products/mineral/dsc-491-4496x3000.jpg') ?>');">
-            <div class="card-info">
-                <h5>Mining</h5>
-                <p>[text]</p>
-                <a href="#">View</a>
-            </div>
-        </div>
-        <div class="product-card bg-169-landscape" style="background-image: url('<?= url('assets/img/products/quarry/boulder/picture-stock-cdo-2-1080x1440.jpeg') ?>');">
-            <div class="card-info">
-                <h5>Quarry</h5>
-                <p>[text]</p>
-                <a href="#">View</a>
-            </div>
-        </div>
-        <div class="product-card bg-43-landscape" style="background-image: url('<?= url('assets/img/products/garment/customized/tailoring-2575930-1280-810x540.jpg') ?>');">
-            <div class="card-info">
-                <h5>Garment</h5>
-                <p>[text]</p>
-                <a href="#">View</a>
+        <?php view('layouts/product-header') ?>
+        
+        <div class="product-preview">
+            <div>
+                
             </div>
         </div>
         <div class="product-list-all">

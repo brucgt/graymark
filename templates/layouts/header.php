@@ -1,6 +1,6 @@
 <nav class="h-16 bg-gray-50 shadow-md flex justify-between px-4">
    <a href="#">
-      <img class="h-full py-1" src="assets/img/company/logo/graymark-high-uality-logo-3x2-no-undertext.png" alt="">
+      <img class="h-full py-1" src="<?= url('assets/img/company/logo/graymark-high-uality-logo-3x2-no-undertext.png')?>" alt="">
    </a>
    <ul class="nav-menu">
       <li class="nav-item"><a href="#">Homepage</a></li>

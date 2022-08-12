@@ -1,4 +1,4 @@
-<div class="product-nav flex flex-wrap">
+<div class="product-nav">
     <div class="nav-item">
         <a href="#" class="nav-link">
             <div class="nav-info">
@@ -43,7 +43,7 @@
         <a href="#" class="nav-link">
             <div class="nav-info">
                 <img class="nav-icon" src="<?= url('assets/img/icons/shirts.png') ?>" alt="shirts-icon">
-                <h5>Garment</h5>
+                <h5>Garments</h5>
             </div>
         </a>
     </div>

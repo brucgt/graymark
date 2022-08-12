@@ -10,11 +10,67 @@
     <?php view('layouts/header') ?>
 
     <div class="w-full">
-        <?php view('layouts/product-header') ?>
-        
         <div class="product-preview">
-            <div>
-                
+            <div class="row no-peek">
+                <div class="column info" style="background-image: url('<?= url('assets/img/others/mbr.jpg') ?>');">
+                    <div class="info-wrapper">
+                        <h5>Agriculture Products</h5>
+                        <p>Graymark International Sourcing Corporation offers various types of agri-products from sugar, rice to corn and other high value commodities for your production or for your other business needs.</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row no-peek">
+                <div class="column info" style="background-image: url('<?= url('assets/img/products/agriculture/magda-ehlers.jpeg') ?>');">
+                    <div class="info-wrapper">
+                        <h5>GM Market</h5>
+                        <p>Our company supports its own local farm partners by offering our clients freshly picked fruits and veggies straight from farms to your location with care.</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column info" style="background-image: url('<?= url('assets/img/products/mineral/dsc-491-4496x3000.jpg') ?>');">
+                    <div class="info-wrapper">
+                        <h5>Mining</h5>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+                <div class="column peek peek-1 peek-mining">
+                    <div class="peek-item"><a class="bg-center" href="#">Minerals</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column info" style="background-image: url('<?= url('assets/img/products/quarry/boulder/picture-stock-cdo-2-1080x1440.jpeg') ?>');">
+                    <div class="info-wrapper">
+                        <h5>Quarry</h5>
+                        <p>The company offers and supplies natural resources ready for export such as River and Construction Sand, Sea Sand Material, Gravel, Armour Rock and Boulders for your project needs.</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+                <div class="column peek peek-4 peek-quarry">
+                    <div class="peek-item"><a class="bg-[center_401%]" href="#">Construction Sand</a></div>
+                    <div class="peek-item"><a class="bg-[center_300%]" href="#">Gravel</a></div>
+                    <div class="peek-item"><a class="bg-[center_200%]" href="#">Sea Sand Material</a></div>
+                    <div class="peek-item"><a class="bg-[center_99%]" href="#">Armour Rock & Boulder</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column info" style="background-image: url('<?= url('assets/img/products/garment/customized/tailoring-2575930-1280-810x540.jpg') ?>');">
+                    <div class="info-wrapper">
+                        <h5>Garments</h5>
+                        <p>Tailoring, Alterations for Men, Women and Children.</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+                <div class="column peek peek-6 peek-garments">
+                    <div class="peek-item"><a class="bg-[center_601%]" href="#">Customized Tailoring</a></div>
+                    <div class="peek-item"><a class="bg-[center_500%]" href="#">Alterations</a></div>
+                    <div class="peek-item"><a class="bg-[center_400%]" href="#">Childrens Wear Apparels</a></div>
+                    <div class="peek-item"><a class="bg-[center_300%]" href="#">Sports Apparel</a></div>
+                    <div class="peek-item"><a class="bg-[center_200%]" href="#">Fire and Traffic Personnel Uniform</a></div>
+                    <div class="peek-item"><a class="bg-[center_99%]" href="#">Military Uniform</a></div>
+                </div>
             </div>
         </div>
         <div class="product-list-all">

@@ -106,19 +106,19 @@
 
 /* About Us */
 .about-primary-title {
-    @apply flex justify-center content-center pb-20 pt-[180px] text-7xl font-bold text-center ;
+    @apply flex justify-center content-center px-5 pb-10 pt-[40px] text-4xl font-bold text-center md:pb-20 md:pt-[50px] md:text-7xl lg:px-10 xl:px-20;
 }
 
 .about-secondary-title {
-    @apply text-5xl font-bold text-center p-10 text-secondary-dark;
+    @apply text-3xl font-bold text-center p-5 text-secondary-dark md:text-5xl md:p-5;
 }
 
 .about-content {
-    @apply text-2xl font-normal text-center;
+    @apply text-[16px] font-normal text-center md:text-2xl;
 }
 
 .about-primary-card {
-    @apply w-[18%] bg-white rounded-lg border border-gray-200 shadow-md m-3;
+    @apply bg-white rounded-lg border border-gray-200 shadow-md m-3 sm:w-[70%] md:w-[45%] lg:w-[30%] xl:w-[25%];
 }
 
 .about-secondary-card {
@@ -130,8 +130,13 @@
 }
 
 .about-card-content {
-    @apply font-normal text-white;
+    @apply font-normal p-2;
 }
+
+.about-card-content2 {
+    @apply font-normal p-2 text-white;
+}
+
 
 @tailwind base;
 @tailwind components;

@@ -18,6 +18,9 @@
 .product-preview .row:nth-child(even) .column.peek {
     @apply md:order-first md:pr-2 md:pl-0;
 }
+.product-preview .row .column.peek .peek-item {
+    @apply bg-center bg-cover bg-no-repeat rounded-lg;
+}
 .product-preview .row .column.peek .peek-item:not(:last-of-type) {
     @apply mb-2;
 }
@@ -31,17 +34,8 @@
     @apply h-1/6;
 }
 .product-preview .row .column.peek .peek-item a {
-    @apply flex justify-center items-center h-full p-4 rounded-lg text-center text-lg font-semibold transition-all ease-in-out duration-100
-        hover:brightness-125;
-}
-.product-preview .row .column.peek.peek-mining .peek-item a {
-    @apply bg-gradient-to-b from-black to-[#C0C0C0] bg-[length:100%_100%];
-}
-.product-preview .row .column.peek.peek-quarry .peek-item a {
-    @apply bg-gradient-to-b from-[#859298] to-[#b8b8ae] bg-[length:100%_400%];
-}
-.product-preview .row .column.peek.peek-garments .peek-item a {
-    @apply bg-gradient-to-b from-[#fa7d92] to-[#f5c5b0] bg-[length:100%_600%];
+    @apply flex justify-center items-center h-full p-4 bg-black bg-opacity-50 rounded-lg text-white text-center text-xl font-semibold tracking-wide
+        hover:underline hover:underline-offset-4;
 }
 .product-preview .row .column.peek.peek-img .peek-item img {
     @apply h-full object-cover rounded-lg;

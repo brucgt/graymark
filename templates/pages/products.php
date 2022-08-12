@@ -36,8 +36,10 @@
                         <a href="#">View</a>
                     </div>
                 </div>
-                <div class="column peek peek-1 peek-mining">
-                    <div class="peek-item"><a class="bg-center" href="#">Minerals</a></div>
+                <div class="column peek peek-1">
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/mineral/dsc-509-1108x739.jpg') ?>');">
+                        <a href="#">Minerals</a>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -48,11 +50,19 @@
                         <a href="#">View</a>
                     </div>
                 </div>
-                <div class="column peek peek-4 peek-quarry">
-                    <div class="peek-item"><a class="bg-[center_401%]" href="#">Construction Sand</a></div>
-                    <div class="peek-item"><a class="bg-[center_300%]" href="#">Gravel</a></div>
-                    <div class="peek-item"><a class="bg-[center_200%]" href="#">Sea Sand Material</a></div>
-                    <div class="peek-item"><a class="bg-[center_99%]" href="#">Armour Rock & Boulder</a></div>
+                <div class="column peek peek-4">
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/quarry/construction-sand/dsc-347-3000x2000.jpg') ?>');">
+                        <a href="#">Construction Sand</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/quarry/gravel/dsc-707-2000x1335.jpeg') ?>');">
+                        <a href="#">Gravel</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/quarry/sea-sand/2020-10-12-11-39-img-7336-506x380.jpg') ?>');">
+                        <a href="#">Sea Sand Material</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/quarry/boulder/vlcsnap-2021-10-31-17h56m55s848-544x960.png') ?>');">
+                        <a href="#">Armour Rock & Boulder</a>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -63,13 +73,25 @@
                         <a href="#">View</a>
                     </div>
                 </div>
-                <div class="column peek peek-6 peek-garments">
-                    <div class="peek-item"><a class="bg-[center_601%]" href="#">Customized Tailoring</a></div>
-                    <div class="peek-item"><a class="bg-[center_500%]" href="#">Alterations</a></div>
-                    <div class="peek-item"><a class="bg-[center_400%]" href="#">Childrens Wear Apparels</a></div>
-                    <div class="peek-item"><a class="bg-[center_300%]" href="#">Sports Apparel</a></div>
-                    <div class="peek-item"><a class="bg-[center_200%]" href="#">Fire and Traffic Personnel Uniform</a></div>
-                    <div class="peek-item"><a class="bg-[center_99%]" href="#">Military Uniform</a></div>
+                <div class="column peek peek-6">
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/garment/customized/express-alterations-indiana-custom-400x267.jpg') ?>');">
+                        <a href="#">Customized Tailoring</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/garment/alteration/hemming-pants-724x482.jpeg') ?>');">
+                        <a href="#">Alterations</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-3-1015x976.jpg') ?>');">
+                        <a href="#">Childrens Wear Apparels</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/garment/sports/img-3358-357x357.jpeg') ?>');">
+                        <a href="#">Sports Apparel</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/garment/fire-traffic-uniform/mbr-13.jpeg') ?>');">
+                        <a href="#">Fire and Traffic Personnel Uniform</a>
+                    </div>
+                    <div class="peek-item" style="background-image: url('<?= url('assets/img/products/garment/military/pilice-with-names-1-952x1387.png') ?>');">
+                        <a href="#">Military Uniform</a>
+                    </div>
                 </div>
             </div>
         </div>

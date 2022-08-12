@@ -6,5 +6,6 @@ return [
     '/' => fn() => MainController::home(),
     '/products' => fn() => MainController::products(),
     '/products/agriculture' => fn() => MainController::agriculture(),
-    '/about' => fn() => MainController::about()
+    '/about' => fn() => MainController::about(),
+    '/client' => fn() => MainController::client()
 ];

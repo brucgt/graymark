@@ -23,4 +23,9 @@ class MainController
     {
         view('pages/about');
     }
+
+    public static function client()
+    {
+        view('pages/clients');
+    }
 }

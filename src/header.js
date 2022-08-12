@@ -4,6 +4,7 @@ const navItem = document.querySelector(".nav-item");
 const dropToggles = document.querySelectorAll(".dropdown-toggle");
 // const dropDown = document.querySelector(".dropdown-menu");
 
+console.log(navToggle.innerHTML);
 navToggle.addEventListener("click", () => {
   navMenu.classList.toggle("active");
  });
@@ -26,5 +27,16 @@ dropToggles.forEach(function(dropToggle){
   dropToggle.addEventListener("click", function (){
   dropDown.classList.toggle("active");
   dropToggle.classList.toggle("active");
+  });
+});
+
+window.addEventListener('click', function(e){   
+
+  dropToggles.forEach(function(dropToggle){
+    const dropDown = dropToggle.querySelector(".dropdown-menu");
+    if (!dropToggle.contains(e.target)){
+      dropDown.classList.remove("active");
+      dropToggle.classList.remove("active");
+    }
   });
 });

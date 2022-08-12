@@ -10,27 +10,3 @@
 // }
 
 
-.nav-menu {
-   @apply
-   lg:static
-   lg:flex-row
-   lg:shadow-none
-   lg:mx-auto
-   lg:w-fit
-}
-
-.nav-item {
-   @apply
-   lg:mx-auto
-   lg:px-2
-   lg:border-b-0
-   lg:border-r
-   lg:leading-8
-   lg:border-r-[#9ca3af]
-}
-
-.dropdown-menu.active {
-   @apply
-   lg:shadow-sm
-   lg:shadow-gray-700
-}

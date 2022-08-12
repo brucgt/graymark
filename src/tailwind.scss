@@ -1,8 +1,10 @@
 /* Product Homepage */
 /* preview */
 .product-preview {
-    @apply relative px-0 flex flex-col gap-4
-        sm:px-4 md:px-8 xl:px-0;
+    @apply relative px-0 flex flex-col
+        sm:p-4 sm:gap-4
+        md:p-8
+        xl:px-0;
 }
 .product-preview .row {
     @apply w-full flex flex-wrap relative min-h-[60vh]
@@ -34,7 +36,7 @@
     @apply h-1/6;
 }
 .product-preview .row .column.peek .peek-item a {
-    @apply flex justify-center items-center h-full p-4 bg-black bg-opacity-50 rounded-lg text-white text-center text-xl font-semibold tracking-wide
+    @apply flex justify-center items-center h-full p-6 bg-black bg-opacity-50 rounded-lg text-white text-center text-xl font-semibold tracking-wide
         hover:underline hover:underline-offset-4;
 }
 .product-preview .row .column.peek.peek-img .peek-item img {
@@ -51,22 +53,28 @@
     @apply h-full w-full flex flex-col justify-center items-center gap-2 bg-black bg-opacity-75 text-white
         md:px-2 md:rounded-lg;
 }
-.product-preview .row .column.info .info-wrapper h5 {
+.product-preview .row .column.info h5 {
     @apply font-bold text-4xl text-center uppercase tracking-wide;
 }
-.product-preview .row .column.info .info-wrapper p {
+.product-preview .row .column.info p {
     @apply px-8 text-base text-center;
 }
-.product-preview .row .column.info .info-wrapper a {
-    @apply inline-block mt-4 px-6 py-[13px] rounded-xl font-semibold text-xl text-black bg-white;
+.product-preview .row .column.info a {
+    @apply inline-block mt-4 px-6 py-[13px] rounded-xl font-semibold text-xl text-black bg-white transition-colors duration-300
+        hover:bg-primary-green hover:text-white;
 }
 .product-preview .row:nth-child(even) .column.info {
     @apply md:order-last;
 }
 /* product list */
 .product-list-all {
-    @apply p-4
-        lg:max-w-5xl lg:mx-auto xl:px-0;
+    @apply w-full relative bg-[#04281C];
+}
+.product-list-all .list-wrapper {
+    @apply p-4 lg:max-w-5xl lg:mx-auto xl:px-0;
+}
+.product-list-all .list-wrapper > h5 {
+    @apply p-6 text-center text-4xl text-primary-green font-bold tracking-wider uppercase;
 }
 .product-list-all .row {
     @apply flex flex-wrap justify-center md:mb-6;
@@ -83,17 +91,34 @@
 .product-list-all .products > div:last-of-type .subrow .column {
     @apply w-full md:w-1/3;
 }
-.product-list-all > h5 {
-    @apply p-6 text-center text-3xl font-bold tracking-tight uppercase;
-}
 .product-list-all .row h5 {
-    @apply mt-4 mb-2 text-xl font-semibold tracking-tight uppercase;
+    @apply mt-4 mb-2 text-2xl text-primary-green font-semibold tracking-wide uppercase;
 }
 .product-list-all .row h6 {
-    @apply mt-4 mb-2 text-lg font-medium tracking-tight uppercase;
+    @apply mb-2 text-lg text-primary-green font-medium tracking-wide uppercase;
 }
 .product-list-all li {
-    @apply text-lg;
+    @apply my-1 text-lg text-white;
+}
+
+/* View Product */
+.product-header {
+    @apply py-8 flex flex-col justify-center items-center gap-2 bg-secondary-green text-white text-center;
+}
+.product-header h5 {
+    @apply block w-full px-4 text-2xl font-semibold uppercase;
+}
+.product-header p {
+    @apply px-4 text-lg text-justify;
+}
+.product-list {
+    @apply w-full relative;
+}
+.product-list .list-wrapper {
+    @apply p-4 lg:max-w-5xl lg:mx-auto xl:px-0;
+}
+.product-list .list-item {
+
 }
 
 /* Product Header Navigation */

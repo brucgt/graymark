@@ -24,13 +24,13 @@
             <h1 class="text-7xl font-bold text-center p-20 text-white">OUR VALUED CLIENTS</h1>
             <div class="text-3xl font-normal pb-20 text-white">
                 <ol>
-                    <li>FOREMOST FOODS INTERNATIONAL INC.</li>
-                    <li>INTERNATIONAL INTIMATES</li>
-                    <li>NORTHLAND CLOTHING PTY LTD.</li>
-                    <li>THE LITTLE IMPORT COMPANY</li>
-                    <li>EL CORTE INGLES, S.A.</li>
-                    <li>STAR CHILDREN'S DRESS CO., INC.</li>
-                    <li>PANACEA PRODUCT CORPORATION</li>
+                    <li class="p-3">FOREMOST FOODS INTERNATIONAL INC.</li>
+                    <li class="p-3">INTERNATIONAL INTIMATES</li>
+                    <li class="p-3">NORTHLAND CLOTHING PTY LTD.</li>
+                    <li class="p-3">THE LITTLE IMPORT COMPANY</li>
+                    <li class="p-3">EL CORTE INGLES, S.A.</li>
+                    <li class="p-3">STAR CHILDREN'S DRESS CO., INC.</li>
+                    <li class="p-3">PANACEA PRODUCT CORPORATION</li>
                 </ol>
             </div>
         </div>

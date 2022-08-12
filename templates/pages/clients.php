@@ -6,12 +6,23 @@
     <title>Our Valued Clients</title>
 </head>
 
+<style>
+    .top-dev {
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px));
+    }
+
+    .bottom-dev {
+        clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
+        margin-top: -40px;
+    }
+</style>
+
 <body>
 
-    <div style="background-image:url(<?= url('assets/img/others/')?>);" class="bg-">
+    <div style="background-image:url(<?= url('assets/img/others/bg-client.png') ?>);" class="bg-cover bg-center bg-no-repeat top-dev">
         <div class="flex flex-col text-center">
-            <h1 class="about-secondary-title">OUR VALUED CLIENTS</h1>
-            <div class="text-2xl font-normal">
+            <h1 class="text-7xl font-bold text-center p-20 text-white">OUR VALUED CLIENTS</h1>
+            <div class="text-3xl font-normal pb-20 text-white">
                 <ol>
                     <li>FOREMOST FOODS INTERNATIONAL INC.</li>
                     <li>INTERNATIONAL INTIMATES</li>
@@ -26,7 +37,7 @@
     </div>
 
     <div class="flex justify-center content-center m-auto">
-        <h1 class="about-secondary-title">ASSOCIATED PARTNERS AND MEMBERS</h1>
+        <h1 class="text-5xl font-bold text-center p-10">ASSOCIATED PARTNERS AND MEMBERS</h1>
     </div>
 
     <div class="flex flex-wrap justify-center content-center">

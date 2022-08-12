@@ -36,7 +36,7 @@
 </style>
 
 <body>
-    <div style="background-image:url(<?= url('assets/img/others/bg-com.jpg') ?>);" class="bg-cover bg-center bg-norepeat top-dev">
+    <div style="background-image:url(<?= url('assets/img/others/bg-com.jpg') ?>);" class="bg-cover bg-center bg-no-repeat top-dev">
         <div class="about-primary-title text-white">
             <h1>GRAYMARK INTERNATIONAL SOURCING CORPORATION</h1>
         </div>
@@ -50,7 +50,7 @@
         <h1 class="about-secondary-title">OUR DIRECTORS</h1>
     </div>
 
-    <div class="flex flex-row justify-center content-center m-auto p-10">
+    <div class="flex flex-row justify-center content-center m-auto p-5">
 
         <div class="about-primary-card">
             <img class="rounded-t-lg" src="<?= url("assets\img\others\profile.png") ?>" alt="">
@@ -99,7 +99,7 @@
             <h1>OUR LOCATION</h1>
         </div>
 
-        <div class="flex flex-col items-center justify-center m-auto my-16 bg-white rounded-lg border shadow-md w-full overflow-hidden md:flex-row md:w-3/4">
+        <div class="flex flex-col items-center justify-center m-auto my-5 bg-white rounded-lg border shadow-md w-full overflow-hidden md:flex-row md:w-3/4">
             <div class="flex flex-col justify-between p-4 leading-normal mr-10 text-primary-green">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">BUSINESS ADDRESS</h5>
                 <p class="mb-3 font-normal text-gray-700">1902A EAST TOWER 19TH FLOOR, PHIL STOCK EXCHANGE BLDG, PASIG CITY, PHILIPPINES.</p>

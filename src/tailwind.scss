@@ -122,15 +122,15 @@
 }
 
 .about-secondary-card {
-    @apply block m-5 my-3 p-6 w-96 bg-white rounded-lg border border-gray-200 shadow-md;
+    @apply block m-5 my-3 p-6 w-96 bg-secondary-dark rounded-lg border border-gray-200 shadow-md ;
 }
 
 .about-card-title {
-    @apply mb-2 text-3xl font-bold tracking-tight text-gray-900;
+    @apply mb-2 text-3xl font-bold tracking-tight text-white;
 }
 
 .about-card-content {
-    @apply font-normal text-gray-700;
+    @apply font-normal text-white;
 }
 
 @tailwind base;

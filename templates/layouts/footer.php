@@ -1,32 +1,19 @@
 
 <footer class="bg-gray-200 dark:bg-gray-900">
     <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-3">
-        <div>
-            <img src="<?=url('assets\img\company\logo\graymark-high-uality-logo-6x4-inches.png')?>" alt="">
-        </div>
-        <div class="flex flex-col items-center">
-            <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
-            <ul class="text-gray-500 dark:text-gray-400">
-                <li class="mb-4">
-                    <a href="#" class=" hover:underline">About</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Products</a>
-                </li>
-                <li class="mb-4">
-                    <a href="#" class="hover:underline">Services</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-span-2 md:col-span-1">
-            <h2 class="mb-6 text-center md:text-left  text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Help center</h2>
+        <!-- <div class="flex items-center col-span-2 md:md:col-start-1 md:col-end-3">
+            <img src="<?=url('assets\img\company\logo\graymark-high-uality-logo-3x2-no-undertext.png')?>" alt="">
+        </div> -->
+        
+        <div class="col-span-2 md:col-span-2">
+            <h2 class="mb-6 text-center sm:text-left  text-lg font-semibold text-gray-500 uppercase dark:text-gray-400">Help center</h2>
             <ul class="text-gray-500 dark:text-gray-400">
                 <li class="mb-4 flex flex-row gap-3">
                     <div>
                         <i class="fa-solid fa-phone text-sm"></i>
                     </div>
                     <div>
-                        <a href="#" class="hover:underline">+63286307484</a>
+                        <a class="hover:underline">+63286307484</a>
                     </div>
                 </li>
                 <li class="mb-4 flex flex-row gap-3">
@@ -34,7 +21,7 @@
                         <i class="fa-solid fa-at relative top-1/2 -translate-y-1/2 text-lg"></i>
                     </div>
                     <div>
-                        <a href="#" class="hover:underline"></i> admin@graymark.com.ph</a>
+                        <a href="#" class="hover:underline"></i> admin@graymark.com.ph</a><br>
                         <a href="#" class="hover:underline"></i> girlie.espiritu@graymark.com.ph</a>
                     </div>
                 </li>
@@ -48,11 +35,24 @@
                 </li>
             </ul>
         </div>
-        
+        <div class="flex flex-col  col-span-1">
+            <h2 class="mb-6 text-lg font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
+            <ul class="text-gray-500 dark:text-gray-400">
+                <li class="mb-4">
+                    <a href="#" class=" hover:underline">About</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Products</a>
+                </li>
+                <li class="mb-4">
+                    <a href="#" class="hover:underline">Services</a>
+                </li>
+            </ul>
+        </div>
         
     </div>
     <div class="py-6 px-4 bg-gray-100 flex justify-center dark:bg-gray-700 md:flex md:items-center">
-        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2022 <a href="#">Graymark</a>. All Rights Reserved.
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2022 <a href="#" class="hover:underline underline-offset-1">Graymark</a>. All Rights Reserved.
         </span>
         <!-- <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
             <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">

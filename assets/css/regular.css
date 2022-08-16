@@ -104,7 +104,7 @@
       text-align: left;
       padding: 10px 0;
    }
-   .dropdown-item:first-child {
+   .dropdown-item:not(:last-child) {
       border-bottom: 1px solid#9a9a9a;
    }
 

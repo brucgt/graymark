@@ -10,36 +10,41 @@
     .top-dev {
         clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px));
     }
+
     .bottom-dev {
         clip-path: polygon(0 50px, 50% 0, 100% 50px, 100% 100%, 0 100%);
         margin-top: -40px;
     }
-    .address{
+
+    .address {
         margin-top: auto;
     }
+
     .address::before {
         content: "\f3c5";
         font-family: "font awesome 5 free";
         font-weight: bold;
         margin-right: 10px;
     }
+
     .contact::before {
         content: "\f095";
         font-family: "font awesome 5 free";
         font-weight: bold;
         margin-right: 10px;
     }
+
     .fax::before {
         content: "\f1ac";
         font-family: "font awesome 5 free";
         font-weight: bold;
         margin-right: 10px;
     }
-
-    
 </style>
 
 <body>
+
+    <?php view('layouts/header') ?>
 
     <div style="background-image:url(<?= url('assets/img/others/bg-client.png') ?>);" class="bg-cover bg-center bg-no-repeat top-dev">
         <div class="flex flex-col text-center">
@@ -158,6 +163,8 @@
             <p class="about-card-content2 contact">632-6386756 to 80</p>
         </div>
     </div>
+
+    <?php view('layouts/footer') ?>
 
 </body>
 

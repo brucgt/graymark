@@ -29,6 +29,11 @@ class MainController
         view('pages/contact');
     }
 
+    public static function facility()
+    {
+        view('pages/facility');
+    }
+
     public static function agriculture()
     {
         view('pages/products/agriculture');

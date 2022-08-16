@@ -10,8 +10,8 @@
     <?php view('layouts/header') ?>
 
     <div>
-        <h1 class="text-center text-3xl font-bold my-5">Our Corporate Office</h1>
-        <div class="m-auto grid gap-4 px-4 max-w-md lg:grid-cols-2 lg:max-w-screen-lg ">
+        <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Our Corporate Office</h1>
+        <div class="m-auto grid gap-5 px-4 max-w-md lg:grid-cols-2 lg:max-w-screen-lg ">
             <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/img-4721-2000x1500.jpg') ?>" alt="">
             <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/front-door-948x711.jpg') ?>" alt="">
             <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/recieving-area-1076x606.jpg') ?>" alt="">
@@ -20,16 +20,16 @@
     </div>
 
     <div>
-        <h1 class="text-center text-3xl font-bold my-5">Design and Testing Division</h1>
-        <div class="flex flex-col items-center m-auto my-5 lg:flex-row">
-            <img class="w-[95%] h-[300px] mb-5 sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[300px] xl:h-[300px]" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
-            <img class="w-[95%] h-[300px] mb-5 sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[300px] xl:h-[300px]" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
-            <img class="w-[95%] h-[300px] mb-5 sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[300px] xl:h-[300px]" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
-            <img class="w-[95%] h-[300px] mb-5 sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[300px] xl:h-[300px]" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
+        <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Design and Testing Division</h1>
+        <div class="flex flex-col justify-center items-center m-auto my-5 lg:flex-row">
+            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
+            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
+            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
+            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
         </div>
     </div>
-    <div class="text-center text-3xl font-bold my-5">Factory and Production</div>
-    <div class="m-auto my-5 w-[95%] ">
+    <div class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Factory and Production</div>
+    <div class="m-auto my-5 w-[95%] lg:w-[80%] xl:w-[60%]">
         <div id="indicators-carousel" class="relative" data-carousel="static">
             <!-- Carousel wrapper -->
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">

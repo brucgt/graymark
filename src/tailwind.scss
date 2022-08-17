@@ -115,10 +115,20 @@
     @apply w-full relative;
 }
 .product-list .list-wrapper {
-    @apply p-4 lg:max-w-5xl lg:mx-auto xl:px-0;
+    @apply relative flex flex-wrap lg:max-w-5xl lg:mx-auto xl:px-0;
 }
 .product-list .list-item {
-
+    @apply w-full p-4 flex flex-col
+        sm:w-1/2 md:w-1/3;
+}
+.product-list .list-item .item-picture {
+    @apply grow;
+}
+.product-list .list-item .item-picture img {
+    @apply h-full object-cover;
+}
+.product-list .list-item .item-info {
+    // @apply ;
 }
 
 /* Product Header Navigation */

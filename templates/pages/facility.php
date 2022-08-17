@@ -11,21 +11,45 @@
 
     <div>
         <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Our Corporate Office</h1>
-        <div class="m-auto grid gap-5 px-4 max-w-md lg:grid-cols-2 lg:max-w-screen-lg ">
-            <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/img-4721-2000x1500.jpg') ?>" alt="">
-            <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/front-door-948x711.jpg') ?>" alt="">
-            <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/recieving-area-1076x606.jpg') ?>" alt="">
-            <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/img-4714-1108x831.jpg') ?>" alt="">
+        <div class="m-auto grid gap-5 px-4 max-w-md lg:grid-cols-2 lg:max-w-screen-md ">
+            <div>
+                <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/img-4721-2000x1500.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-2xl font-bold">Graymark ISC Office</h3>
+            </div>
+            <div>
+                <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/front-door-948x711.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-2xl font-bold">Graymark ICS Office</h3>
+            </div>
+            <div>
+                <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/recieving-area-1076x606.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-2xl font-bold">Graymark ISC Reception Area</h3>
+            </div>
+            <div>
+                <img class="aspect-square rounded-md" src="<?= url('assets/img/facilities/office/img-4714-1108x831.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-2xl font-bold">Board and Client Receiving Room</h3>
+            </div>
         </div>
     </div>
 
     <div>
         <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Design and Testing Division</h1>
         <div class="flex flex-col justify-center items-center m-auto my-5 lg:flex-row">
-            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
-            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
-            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
-            <img class="w-[95%] h-[300px] mb-5 rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
+            <div>
+                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-xl font-bold">R&D and Design Area</h3>
+            </div>
+            <div>
+                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-xl font-bold">Design Tailoring Area</h3>
+            </div>
+            <div>
+                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-xl font-bold">Design Tailoring Area</h3>
+            </div>
+            <div>
+                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
+                <h3 class="pb-5 text-center text-xl font-bold">Samples and Testing Designs</h3>
+            </div>
         </div>
     </div>
     <div class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Factory and Production</div>

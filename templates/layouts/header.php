@@ -5,7 +5,7 @@
    <ul class="nav-menu">
       <li class="nav-item hover:underline underline-offset-2 "><a href="#">Homepage</a></li>
       <li class="nav-item hover:underline underline-offset-2 "><a href="#">Products</a></li>
-      <li class="nav-item hover:underline underline-offset-2 dropdown-toggle"><a href="#">About</a>
+      <li class="nav-item hover:underline underline-offset-2 dropdown-toggle"><a href="#">About <i class="fa-solid fa-caret-down"></i></a>
          <ul class="dropdown-menu z-10">
             <li class="dropdown-item"><a href="#">Our Company</a></li>
             <li class="dropdown-item"><a href="#">Our Valued Clients</a></li>

@@ -14,6 +14,26 @@ class MainController
         view('pages/products');
     }
 
+    public static function about()
+    {
+        view('pages/about');
+    }
+
+    public static function client()
+    {
+        view('pages/clients');
+    }
+
+    public static function contact()
+    {
+        view('pages/contact');
+    }
+
+    public static function facility()
+    {
+        view('pages/facility');
+    }
+
     public static function agriculture()
     {
         view('pages/products/agriculture');
@@ -39,8 +59,4 @@ class MainController
         view('pages/products/garments');
     }
 
-    public static function about()
-    {
-        view('pages/about');
-    }
 }

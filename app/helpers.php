@@ -19,3 +19,18 @@ function getCurrentPath()
     $basePath = explode("?", $_SERVER['REQUEST_URI'])[0];
     return trim(substr($basePath, strlen($basedir)), "/");
 }
+
+function redirect($location)
+{
+    header("Location:" . url($location));
+    exit();
+}
+
+function old($key)
+{
+    if (isset($_SESSION['prevdata']) && isset($_SESSION['prevdata'][$key])) {
+        return $_SESSION['prevdata'][$key];
+    } else {
+        return "";
+    }
+}

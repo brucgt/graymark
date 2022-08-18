@@ -33,6 +33,7 @@
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/mineral/dsc-491-4496x3000.jpg') ?>');">
                     <div class="info-wrapper">
                         <h5>Mining</h5>
+                        <p>The Company offers and supplies natural resources ready for operation and export mineral ores such as Iron, Copper and Nickel.</p>
                         <a href="<?= url('/products/mining') ?>">View</a>
                     </div>
                 </div>
@@ -65,11 +66,20 @@
                     </div>
                 </div>
             </div>
+            <div class="row no-peek">
+                <div class="column info" style="background-image: url('<?= url('assets/img/products/industrial/cement-3-700x450.jpg') ?>');">
+                    <div class="info-wrapper">
+                        <h5>Industrial Commodities</h5>
+                        <p>Graymark International Sourcing Corporation offers various types of Oil/Petrol and Cement.</p>
+                        <a href="<?= url('/products/industrial') ?>">View</a>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/garment/customized/tailoring-2575930-1280-810x540.jpg') ?>');">
                     <div class="info-wrapper">
                         <h5>Garments</h5>
-                        <p>Tailoring, Alterations for Men, Women and Children.</p>
+                        <p>Our company produces different types of garments for men and women. We also accept tailoring and alterations for men women and children. We also produce Sports apparel and uniforms for fire, traffic and police and military.</p>
                         <a href="<?= url('/products/garments') ?>">View</a>
                     </div>
                 </div>

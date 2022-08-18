@@ -16,6 +16,7 @@ return [
     '/products/market' => fn() => MainController::market(),
     '/products/mining' => fn() => MainController::mining(),
     '/products/quarry' => fn() => MainController::quarry(),
+    '/products/industrial' => fn() => MainController::industrial(),
     '/products/garments' => fn() => MainController::garments(),
 
 ];

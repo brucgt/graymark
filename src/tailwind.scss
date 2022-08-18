@@ -36,7 +36,7 @@
     @apply h-1/6;
 }
 .product-preview .row .column.peek .peek-item a {
-    @apply flex justify-center items-center h-full p-6 bg-black bg-opacity-50 rounded-lg text-white text-center text-xl font-semibold tracking-wide
+    @apply flex justify-center items-center h-full p-6 bg-black bg-opacity-25 rounded-lg text-white text-center text-xl font-semibold tracking-wide
         hover:underline hover:underline-offset-4;
 }
 .product-preview .row .column.peek.peek-img .peek-item img {
@@ -50,7 +50,7 @@
     @apply md:w-full;
 }
 .product-preview .row .column.info .info-wrapper {
-    @apply h-full w-full flex flex-col justify-center items-center gap-2 bg-black bg-opacity-75 text-white
+    @apply h-full w-full flex flex-col justify-center items-center gap-2 bg-black bg-opacity-40 text-white
         md:px-2 md:rounded-lg;
 }
 .product-preview .row .column.info h5 {
@@ -106,7 +106,7 @@
     @apply py-8 flex flex-col justify-center items-center gap-2 bg-secondary-dark text-white text-center;
 }
 .product-header h5 {
-    @apply block w-full px-4 text-2xl font-semibold uppercase;
+    @apply block w-full mb-2 px-4 text-3xl font-semibold uppercase;
 }
 .product-header p {
     @apply px-4 text-lg text-justify;
@@ -115,10 +115,27 @@
     @apply w-full relative;
 }
 .product-list .list-wrapper {
-    @apply p-4 lg:max-w-5xl lg:mx-auto xl:px-0;
+    @apply relative flex flex-wrap lg:max-w-5xl lg:mx-auto xl:px-0;
 }
 .product-list .list-item {
-
+    @apply w-full p-4 list-none
+        sm:w-1/2 md:w-1/3;
+}
+.product-list .list-item .item-wrapper {
+    @apply relative;
+}
+.product-list .list-item .item-picture img {
+    @apply min-h-[300px] md:min-h-[350px] lg:md:min-h-[500px] object-cover bg-slate-300 ;
+}
+.product-list .list-item .item-info {
+    @apply absolute p-4 pt-10 w-full bottom-0 bg-green-600 text-white;
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
+}
+.product-list .list-item .item-info h6 {
+    @apply mb-2 text-2xl font-semibold tracking-wide uppercase;
+}
+.product-list .list-item .item-info p {
+    @apply text-lg;
 }
 
 /* Product Header Navigation */

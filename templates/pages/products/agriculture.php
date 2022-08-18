@@ -12,11 +12,13 @@
     <div class="w-full">
         <?php view('layouts/product-header') ?>
 
-        <div class="product-header">
-            <h5>Agriculture Products</h5>
-            <p>Graymark International Sourcing Corporation offers various types of agri-products from sugar, rice to corn and other high value commodities for your production or for your other business needs.</p>
-        </div>
-        <div class="product-list">
+        <header class="product-header">
+            <div class="header-wrapper">
+                <h5>Agriculture Products</h5>
+                <p>Graymark International Sourcing Corporation offers various types of agri-products from sugar, rice to corn and other high value commodities for your production or for your other business needs.</p>
+            </div>
+        </header>
+        <section class="product-list list-item-3">
             <div class="list-wrapper">
                 <div class="list-item">
                     <div class="item-wrapper">
@@ -84,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="list-item">
+                <div class="list-item last-item">
                     <div class="item-wrapper">
                         <div class="item-picture">
                             <img src="<?= url('assets/img/products/agriculture/mbr-8.jpg') ?>" alt="corn">
@@ -96,7 +98,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
 
         <?php view('layouts/product-footer') ?>
     </div>

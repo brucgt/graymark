@@ -10,7 +10,7 @@
     <?php view('layouts/header') ?>
 
     <div class="w-full">
-        <div class="product-preview">
+        <section class="product-preview relative px-0 flex flex-col sm:p-4 sm:gap-4 md:p-8 xl:px-0">
             <div class="row no-peek">
                 <div class="column info" style="background-image: url('<?= url('assets/img/others/mbr.jpg') ?>');">
                     <div class="info-wrapper">
@@ -104,10 +104,10 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="product-list-all">
-            <div class="list-wrapper">
-                <h5>Product List</h5>
+        </section>
+        <section class="product-list-all w-full relative bg-[#04281C]">
+            <div class="list-wrapper p-4 lg:max-w-5xl lg:mx-auto xl:px-0">
+                <h5 class="p-6 text-center text-4xl text-primary-green font-bold tracking-wider uppercase">Product List</h5>
                 <div class="products">
                     <div class="row">
                         <div class="column">
@@ -188,7 +188,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
     <?php view('layouts/footer') ?>

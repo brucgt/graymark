@@ -1,4 +1,4 @@
-<div class="product-nav">
+<div class="product-nav py-4 flex flex-wrap">
     <div class="nav-item">
         <a href="<?= url('/products') ?>" class="nav-link">
             <div class="nav-info">

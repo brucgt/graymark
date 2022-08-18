@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
+    <title>Mining | Graymark ISC</title>
     <?php view('layouts/head') ?>
 </head>
 
@@ -12,8 +12,16 @@
     <div class="w-full">
         <?php view('layouts/product-header') ?>
 
-        <div class="product-list">
-
+        <header class="product-header">
+            <div class="header-wrapper">
+                <h5>Mining</h5>
+                <p>The Company offers and supplies natural resources ready for operation and export mineral ores such as Iron, Copper and Nickel.</p>
+            </div>
+        </header>
+        <div class="product-list list-item-3">
+            <div class="list-wrapper">
+                
+            </div>
         </div>
     </div>
 

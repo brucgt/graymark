@@ -1,11 +1,8 @@
-body {
+#top {
    background-image: url(../img/others/home-bg.svg);
    background-position-x: center;
 }
 
-#backToTop {
-
-}
 
 .nav-menu {
    display: flex;

@@ -19,66 +19,80 @@
         <div class="product-list">
             <div class="list-wrapper">
                 <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/004-506x285.jpg') ?>" alt="vietnam-rice">
-                    </div>
-                    <div class="item-info">
-                        <h6>Vietnam Rice</h6>
-                        <p><span>Variety:</span> 5451 & 504</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/1406002.large-1024x1024-2-650x400.jpeg') ?>" alt="coco-sugar">
-                    </div>
-                    <div class="item-info">
-                        <h6>Coco Sugar</h6>
-                        <p>Distribution Supply & Export</p>
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/004-506x285.jpg') ?>" alt="vietnam-rice">
+                        </div>
+                        <div class="item-info">
+                            <h6>Vietnam Rice</h6>
+                            <p><span>Variety:</span> 5451 & 504</p>
+                        </div>
                     </div>
                 </div>
                 <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/sugar-shutterstock-615908133.jpeg') ?>" alt="sugar">
-                    </div>
-                    <div class="item-info">
-                        <h6>Sugar</h6>
-                        <p>Imported</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/rice-flour-4-700x450.jpeg') ?>" alt="rice-flour">
-                    </div>
-                    <div class="item-info">
-                        <h6>Rice Flour</h6>
-                        <p>Imported</p>
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/1406002.large-1024x1024-2-650x400.jpeg') ?>" alt="coco-sugar">
+                        </div>
+                        <div class="item-info">
+                            <h6>Coco Sugar</h6>
+                            <p>Distribution Supply & Export</p>
+                        </div>
                     </div>
                 </div>
                 <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/mbr-7.jpg') ?>" alt="pineapple">
-                    </div>
-                    <div class="item-info">
-                        <h6>Pineapple</h6>
-                        <p>Distribution Supply & Export</p>
-                    </div>
-                </div>
-                <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/mbr-9.jpg') ?>" alt="banana">
-                    </div>
-                    <div class="item-info">
-                        <h6>Banana</h6>
-                        <p>Distribution Supply & Export</p>
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/sugar-shutterstock-615908133.jpeg') ?>" alt="sugar">
+                        </div>
+                        <div class="item-info">
+                            <h6>Sugar</h6>
+                            <p>Imported</p>
+                        </div>
                     </div>
                 </div>
                 <div class="list-item">
-                    <div class="item-picture">
-                        <img src="<?= url('assets/img/products/agriculture/mbr-8.jpg') ?>" alt="corn">
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/rice-flour-4-700x450.jpeg') ?>" alt="rice-flour">
+                        </div>
+                        <div class="item-info">
+                            <h6>Rice Flour</h6>
+                            <p>Imported</p>
+                        </div>
                     </div>
-                    <div class="item-info">
-                        <h6>Corn</h6>
-                        <p>Distribution Supply & Export</p>
+                </div>
+                <div class="list-item">
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/mbr-7.jpg') ?>" alt="pineapple">
+                        </div>
+                        <div class="item-info">
+                            <h6>Pineapple</h6>
+                            <p>Distribution Supply & Export</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/mbr-9.jpg') ?>" alt="banana">
+                        </div>
+                        <div class="item-info">
+                            <h6>Banana</h6>
+                            <p>Distribution Supply & Export</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-item">
+                    <div class="item-wrapper">
+                        <div class="item-picture">
+                            <img src="<?= url('assets/img/products/agriculture/mbr-8.jpg') ?>" alt="corn">
+                        </div>
+                        <div class="item-info">
+                            <h6>Corn</h6>
+                            <p>Distribution Supply & Export</p>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -54,6 +54,11 @@ class MainController
         view('pages/products/quarry');
     }
 
+    public static function industrial()
+    {
+        view('pages/products/industrial');
+    }
+
     public static function garments()
     {
         view('pages/products/garments');

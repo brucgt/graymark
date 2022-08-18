@@ -2,9 +2,10 @@ const navToggle = document.querySelector(".nav-toggle");
 const navMenu = document.querySelector(".nav-menu");
 const navItem = document.querySelector(".nav-item");
 const dropToggles = document.querySelectorAll(".dropdown-toggle");
+const backToTop = document.querySelector(".backToTop");
 // const dropDown = document.querySelector(".dropdown-menu");
 
-console.log(navToggle.innerHTML);
+// console.log(navToggle.innerHTML);?
 navToggle.addEventListener("click", () => {
   navMenu.classList.toggle("active");
  });
@@ -40,3 +41,15 @@ window.addEventListener('click', function(e){
     }
   });
 });
+
+window.addEventListener("scroll", function() {
+  if(window.scrollY >= 150) {
+    backToTop.classList.add("visible");
+  }else {
+    backToTop.classList.remove("visible");
+  }
+});
+
+backToTop.addEventListener("click", function() {
+  window.scrollTo(0, 0);
+})

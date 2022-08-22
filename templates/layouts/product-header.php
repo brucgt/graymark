@@ -1,4 +1,4 @@
-<div class="product-nav py-4 flex flex-wrap">
+<div class="product-nav py-4 flex overflow-x-auto snap-x snap-mandatory md:flex-wrap">
     <div class="nav-item">
         <a href="<?= url('/products') ?>" class="nav-link">
             <div class="nav-info">

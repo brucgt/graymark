@@ -17,6 +17,8 @@
         </div>
     </div>
 
+    
+
     <?php view('layouts/footer') ?>
 </body>
 

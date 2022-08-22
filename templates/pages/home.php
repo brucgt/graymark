@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="scroll-smooth" lang="en">
 <head>
-    <title>Document</title>
+    <title>Graymark | Home</title>
     <?php view('layouts/head') ?>
 </head>
 <body id="top" class="bg-no-repeat bg-[length:600px] sm:bg-[length:900px] lg:bg-[length:1050px] bg-[center_top_-10px] sm:bg-[center_top_-100px] lg:bg-[center_top_-170px]">

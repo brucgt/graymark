@@ -7,9 +7,10 @@
 </head>
 
 <style>
-    .top-dev {
-        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 0 100%);
-    }
+.top-dev {
+  clip-path: polygon(0 0,100% 0,100% calc(100% - 50px),calc(50% + 283.56px) calc(100% - 50px),50% 100%,calc(50% - 283.56px) calc(100% - 50px),0 calc(100% - 50px));
+}
+
 </style>
 
 <body>

@@ -1861,11 +1861,14 @@ input:checked + .toggle-bg {
 .w-2\/5 {
   width: 40%;
 }
-.w-\[300px\] {
-  width: 300px;
+.w-\[280px\] {
+  width: 280px;
 }
-.w-\[150px\] {
-  width: 150px;
+.w-\[500px\] {
+  width: 500px;
+}
+.w-\[200px\] {
+  width: 200px;
 }
 .w-\[90\%\] {
   width: 90%;
@@ -2878,6 +2881,9 @@ input:checked + .toggle-bg {
   }
   .lg\:pt-14 {
     padding-top: 3.5rem;
+  }
+  .lg\:text-left {
+    text-align: left;
   }
   .lg\:text-5xl {
     font-size: 3rem;

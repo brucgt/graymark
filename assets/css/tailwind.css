@@ -100,10 +100,15 @@
   background-repeat: no-repeat;
 }
 
+@media (min-width: 640px) {
+  .product-preview .row .column.info {
+    border-radius: 0.5rem;
+  }
+}
+
 @media (min-width: 768px) {
   .product-preview .row .column.info {
     width: 58.333333%;
-    border-radius: 0.5rem;
   }
   .product-preview .row.no-peek .column.info {
     width: 100%;
@@ -124,9 +129,14 @@
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
   .product-preview .row .column.info .info-wrapper {
     border-radius: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .product-preview .row .column.info .info-wrapper {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
   }
@@ -282,8 +292,6 @@
   margin-bottom: 0.5rem;
   display: block;
   width: 100%;
-  padding-left: 1rem;
-  padding-right: 1rem;
   text-align: center;
   font-family: Raleway, sans-serif;
   font-size: 2.25rem;
@@ -300,8 +308,6 @@
 }
 
 .product-header p {
-  padding-left: 1rem;
-  padding-right: 1rem;
   text-align: justify;
   font-family: Oswald, sans-serif;
   font-size: 1.125rem;
@@ -310,15 +316,33 @@
   letter-spacing: 0.025em;
 }
 
-.product-highlight {
-  position: relative;
-  min-height: 30vh;
+.product-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.product-highlight .highlight-wrapper {
+.product-section .product-highlight {
+  position: relative;
+}
+
+.product-section .product-highlight .highlight-wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 1280px) {
+  .product-section .product-highlight .highlight-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+.product-section .product-highlight .highlight-wrapper > div {
   display: flex;
-  height: 100%;
+  min-height: 30vh;
   width: 100%;
+  align-items: center;
+  justify-content: center;
   border-radius: 0.5rem;
   border-width: 1px;
   --tw-bg-opacity: 1;
@@ -330,10 +354,13 @@
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-@media (min-width: 640px) {
-  .product-highlight .highlight-wrapper {
-    padding: 2rem;
-  }
+.product-section .product-highlight .highlight-wrapper h6 {
+  font-family: Raleway, sans-serif;
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
 /* page content */

@@ -46,7 +46,7 @@
         <div>
             <div class="flex flex-row justify-center items-center">
                 <img class="hidden w-[280px] h-auto lg:block" src="<?= url('assets/img/products/garment/alteration/AL.png') ?>" alt="">
-                <div class="flex flex-col p-4">
+                <div class="flex flex-col p-4 text-center lg:text-left">
                     <h1 class="text-3xl font-bold lg:text-6xl">Alteration</h1>
                     <p class="text-lg font-bold py-4">Jeans and Dress Alterations for Men, Women and Children.</p>
                 </div>
@@ -64,7 +64,7 @@
         <div>
             <div class="flex flex-row justify-center items-center">
                 <img class="hidden w-[280px] h-auto lg:block" src="<?= url('assets/img/products/garment/childrens-wear/CA.png') ?>" alt="">
-                <div class="flex flex-col p-4">
+                <div class="flex flex-col p-4 text-center lg:text-left">
                     <h1 class="text-3xl font-bold lg:text-6xl">Children's Apparel</h1>
                     <p class="text-lg font-bold py-4">Girl's Dresses, Boy's Polo Shirt, Shorts.</p>
                 </div>
@@ -88,7 +88,7 @@
         <div>
             <div class="flex flex-row justify-center items-center">
                 <img class="hidden w-[280px] h-auto lg:block" src="<?= url('assets/img/products/garment/sports/SP.png') ?>" alt="">
-                <div class="flex flex-col p-4">
+                <div class="flex flex-col p-4 text-center lg:text-left">
                     <h1 class="text-3xl font-bold lg:text-6xl">Sports Apparel</h1>
                     <p class="text-lg font-bold py-4">Team Uniform, Jersey.</p>
                 </div>
@@ -104,7 +104,7 @@
         <div>
             <div class="flex flex-row justify-center items-center">
                 <img class="hidden w-[280px] h-auto lg:block" src="<?= url('assets/img/products/garment/fire-traffic-uniform/FTU.png') ?>" alt="">
-                <div class="flex flex-col p-4">
+                <div class="flex flex-col p-4 text-center lg:text-left">
                     <h1 class="text-3xl font-bold lg:text-6xl">Fire / Traffic Uniform</h1>
                     <p class="text-lg font-bold py-4">Vest, Reflextorize, Raincoats.</p>
                 </div>
@@ -120,7 +120,7 @@
         <div>
             <div class="flex flex-row justify-center items-center">
                 <img class="hidden w-[280px] h-auto lg:block" src="<?= url('assets/img/products/garment/military/M.png') ?>" alt="">
-                <div class="flex flex-col p-4">
+                <div class="flex flex-col p-4 text-center lg:text-left">
                     <h1 class="text-3xl font-bold lg:text-6xl">Police, Military Uniform</h1>
                     <p class="text-lg font-bold py-4">Army, Navy, ROTC, Police.</p>
                 </div>

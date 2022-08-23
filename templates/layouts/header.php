@@ -2,7 +2,7 @@
    <a href="#">
       <img class="h-full py-1" src="<?= url('assets/img/company/logo/graymark-high-uality-logo-3x2-no-undertext.png')?>" alt="">
    </a>
-   <ul class="nav-menu">
+   <ul class="nav-menu z-20">
       <li class="nav-item hover:underline underline-offset-2 "><a href="<?= url('') ?>">Homepage</a></li>
       <li class="nav-item hover:underline underline-offset-2 "><a href="<?= url('/products') ?>">Products</a></li>
       <li class="nav-item hover:underline underline-offset-2 dropdown-toggle"><a href="#">About <i class="fa-solid fa-caret-down"></i></a>

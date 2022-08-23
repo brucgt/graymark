@@ -1,15 +1,16 @@
+.center-wrapper {
+    @apply lg:max-w-5xl lg:mx-auto;
+}
 /* Product Homepage */
 /* preview */
 .product-preview .row {
-    @apply w-full flex flex-wrap relative min-h-[60vh]
-        lg:max-w-5xl lg:mx-auto;
+    @apply w-full flex flex-wrap relative min-h-[60vh];
 }
 .product-preview .row .column {
     @apply relative w-full;
 }
 .product-preview .row .column.peek {
-    @apply hidden
-        md:pr-0 md:pl-2 md:w-5/12 md:flex md:flex-col;
+    @apply hidden md:pr-0 md:pl-2 md:w-5/12 md:flex md:flex-col;
 }
 .product-preview .row:nth-child(even) .column.peek {
     @apply md:order-first md:pr-2 md:pl-0;
@@ -30,22 +31,19 @@
     @apply h-1/6;
 }
 .product-preview .row .column.peek .peek-item a {
-    @apply flex justify-center items-center h-full p-6 bg-black bg-opacity-25 rounded-lg text-white text-center text-xl font-semibold tracking-wide
-        hover:underline hover:underline-offset-4;
+    @apply flex justify-center items-center h-full p-6 bg-black bg-opacity-25 rounded-lg text-white text-center text-xl font-semibold tracking-wide hover:underline hover:underline-offset-4;
 }
 .product-preview .row .column.peek.peek-img .peek-item img {
     @apply h-full object-cover rounded-lg;
 }
 .product-preview .row .column.info {
-    @apply bg-center bg-cover bg-no-repeat
-        md:rounded-lg md:w-7/12;
+    @apply bg-center bg-cover bg-no-repeat sm:rounded-lg md:w-7/12;
 }
 .product-preview .row.no-peek .column.info {
     @apply md:w-full;
 }
 .product-preview .row .column.info .info-wrapper {
-    @apply h-full w-full flex flex-col justify-center items-center gap-2 bg-black bg-opacity-40 text-white
-        md:px-2 md:rounded-lg;
+    @apply h-full w-full flex flex-col justify-center items-center gap-2 bg-black bg-opacity-40 text-white sm:rounded-lg md:px-2;
 }
 .product-preview .row .column.info h5 {
     @apply font-bold text-4xl text-center uppercase tracking-wide;
@@ -54,8 +52,7 @@
     @apply px-8 text-base text-center;
 }
 .product-preview .row .column.info a {
-    @apply inline-block mt-4 px-6 py-[13px] rounded-xl font-semibold text-xl text-black bg-white transition-colors duration-300
-        hover:bg-primary-green hover:text-white;
+    @apply inline-block mt-4 px-6 py-[13px] rounded-xl font-semibold text-xl text-black bg-white transition-colors duration-300 hover:bg-primary-green hover:text-white;
 }
 .product-preview .row:nth-child(even) .column.info {
     @apply md:order-last;
@@ -87,25 +84,32 @@
 }
 
 /* Product Category Page */
-/* page content */
-.product-header {
-    @apply bg-secondary-dark text-white text-center;
-}
+/* page section header */
 .product-header .header-wrapper {
-    @apply relative px-8 py-12 flex flex-col gap-2 justify-center items-center lg:max-w-5xl lg:mx-auto xl:px-0;
+    @apply relative px-4 py-8 flex flex-col gap-2 justify-center xl:px-0;
 }
 .product-header h5 {
-    @apply block w-full mb-2 px-4 text-3xl font-bold uppercase;
+    @apply block w-full mb-2 text-center text-4xl font-broad font-bold uppercase tracking-wider md:text-start;
 }
 .product-header p {
-    @apply px-4 text-lg text-justify;
+    @apply text-lg font-compact font-light text-justify tracking-wide;
 }
-.product-highlight {
-    @apply min-h-[30vh] relative bg-center bg-cover bg-no-repeat;
+.product-section {
+    @apply py-4;
 }
-.product-highlight .highlight-wrapper {
-    @apply h-full w-full absolute flex justify-center items-center bg-black bg-opacity-40 text-white text-4xl text-center font-semibold uppercase tracking-wider;
+.product-section .product-highlight {
+    @apply relative;
 }
+.product-section .product-highlight .highlight-wrapper {
+    @apply px-4 xl:px-0;
+}
+.product-section .product-highlight .highlight-wrapper > div {
+    @apply min-h-[30vh] p-4 w-full flex justify-center items-center text-center bg-white rounded-lg border shadow-md;
+}
+.product-section .product-highlight .highlight-wrapper h6 {
+    @apply text-5xl font-broad font-black tracking-wider uppercase;
+}
+/* page content */
 .product-gallery {
     
 }
@@ -113,7 +117,7 @@
     @apply w-full relative;
 }
 .product-list .list-wrapper {
-    @apply relative flex flex-wrap justify-center lg:max-w-5xl lg:mx-auto xl:px-0;
+    @apply relative flex flex-wrap justify-center;
 }
 .product-list.list-item-2 .list-item {
     @apply md:w-1/2;
@@ -122,8 +126,7 @@
     @apply md:w-1/3;
 }
 .product-list .list-item {
-    @apply w-full p-4 list-none
-        sm:w-1/2 md:w-full;
+    @apply w-full p-4 list-none sm:w-1/2 md:w-full;
 }
 .product-list .list-item.last-item {
     @apply mr-auto;
@@ -132,22 +135,21 @@
     @apply relative;
 }
 .product-list .list-item .item-picture img {
-    @apply min-h-[300px] md:min-h-[350px] lg:md:min-h-[500px] object-cover bg-slate-300 ;
+    @apply min-h-[300px] md:min-h-[350px] lg:md:min-h-[500px] object-cover bg-slate-300;
 }
 .product-list .list-item .item-info {
     @apply absolute p-4 pt-10 w-full bottom-0 bg-green-600 text-white;
     clip-path: polygon(0 25%, 100% 0, 100% 100%, 0 100%);
 }
 .product-list .list-item .item-info h6 {
-    @apply mb-2 text-2xl font-semibold tracking-wide uppercase;
+    @apply text-2xl font-broad font-black tracking-wide uppercase;
 }
 .product-list .list-item .item-info p {
-    @apply text-lg;
+    @apply text-lg font-compact tracking-wide;
 }
 /* header navigation */
 .product-nav .nav-item {
-    @apply relative p-2 w-full min-w-[300px] snap-start snap-always
-        sm:w-1/2 md:min-w-0 md:w-1/3 lg:w-1/4 xl:w-1/5 xl:max-w-xs;
+    @apply relative p-2 w-full min-w-[300px] snap-start snap-always sm:w-1/2 md:min-w-0 md:w-1/3 lg:w-1/4 xl:w-1/5 xl:max-w-xs;
 }
 .product-nav .nav-link {
     @apply block w-full h-full rounded-lg border border-gray-200 shadow-md;
@@ -156,7 +158,7 @@
     @apply p-6 w-full h-full flex flex-col gap-4 justify-between bg-black bg-opacity-0 hover:bg-opacity-50 rounded-lg transition-all duration-500;
 }
 .product-nav .nav-info h5 {
-    @apply my-auto text-2xl font-bold tracking-tight text-gray-900;
+    @apply my-auto text-2xl font-compact font-semibold text-gray-900;
 }
 .product-nav .nav-info .nav-icon {
     @apply h-10 w-10;

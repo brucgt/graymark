@@ -11,7 +11,7 @@
 
     <div class="w-full">
         <section class="product-preview relative px-0 flex flex-col sm:p-4 sm:gap-4 md:p-8 xl:px-0">
-            <div class="row no-peek">
+            <div class="row center-wrapper no-peek">
                 <div class="column info" style="background-image: url('<?= url('assets/img/others/mbr.jpg') ?>');">
                     <div class="info-wrapper">
                         <h5>Agriculture Products</h5>
@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-peek">
+            <div class="row center-wrapper no-peek">
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/agriculture/magda-ehlers.jpeg') ?>');">
                     <div class="info-wrapper">
                         <h5>GM Market</h5>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row center-wrapper">
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/mineral/dsc-491-4496x3000.jpg') ?>');">
                     <div class="info-wrapper">
                         <h5>Mining</h5>
@@ -43,7 +43,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row center-wrapper">
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/quarry/boulder/picture-stock-cdo-2-1080x1440.jpeg') ?>');">
                     <div class="info-wrapper">
                         <h5>Quarry</h5>
@@ -66,7 +66,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row no-peek">
+            <div class="row center-wrapper no-peek">
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/industrial/cement-3-700x450.jpg') ?>');">
                     <div class="info-wrapper">
                         <h5>Industrial Commodities</h5>
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row center-wrapper">
                 <div class="column info" style="background-image: url('<?= url('assets/img/products/garment/customized/tailoring-2575930-1280-810x540.jpg') ?>');">
                     <div class="info-wrapper">
                         <h5>Garments</h5>

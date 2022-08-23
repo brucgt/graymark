@@ -13,14 +13,14 @@
         <?php view('layouts/product-header') ?>
 
         <header class="product-header">
-            <div class="header-wrapper">
+            <div class="header-wrapper center-wrapper">
                 <h5>Mining</h5>
                 <p>The Company offers and supplies natural resources ready for operation and export mineral ores such as Iron, Copper and Nickel.</p>
             </div>
         </header>
         <section id="minerals">
-            <div class="product-highlight" style="background-image: url('<?= url('assets/img/products/mineral/dsc-509-1108x739.jpg') ?>');">
-                <div class="highlight-wrapper">
+            <div class="product-highlight">
+                <div class="highlight-wrapper center-wrapper">
                     <h6>Minerals</h6>
                 </div>
             </div>

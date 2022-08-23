@@ -70,18 +70,18 @@
                 </div>
             </div>
             <div class="flex flex-wrap justify-center my-10">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-1-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-2-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-3-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-5-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-6-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-8-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-9-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-10-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-11-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-12-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-17-1015x976.jpg') ?>" alt="">
-                <img class="rounded-md m-2 w-[200px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-18-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-1-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-2-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-3-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-5-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-6-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-8-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-9-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-10-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-11-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-12-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-17-1015x976.jpg') ?>" alt="">
+                <img class="rounded-md m-2 w-[300px] h-auto shadow-lg" src="<?= url('assets/img/products/garment/childrens-wear/girls-dresses-3-mo-to-16-yrs-18-1015x976.jpg') ?>" alt="">
             </div>
         </div>
 

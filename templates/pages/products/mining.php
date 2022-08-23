@@ -18,13 +18,15 @@
                 <p>The Company offers and supplies natural resources ready for operation and export mineral ores such as Iron, Copper and Nickel.</p>
             </div>
         </header>
-        <section id="minerals">
-            <div class="product-highlight">
+        <section id="minerals" class="product-section">
+            <header class="product-highlight">
                 <div class="highlight-wrapper center-wrapper">
-                    <h6>Minerals</h6>
+                    <div>
+                        <h6>Minerals</h6>
+                    </div>
                 </div>
-            </div>
-            <div>
+            </header>
+            <div class="category-content">
                 <div class="py-12 relative flex flex-wrap justify-center items-center lg:max-w-6xl lg:mx-auto">
                     <div class="w-full mb-12">
                         <div class="w-full flex justify-center items-end h-screen bg-slate-600 bg-center bg-cover bg-no-repeat md:bg-left" style="background-image: url('<?= url('assets/img/products/mineral/dsc-490-4496x3000.jpg') ?>');">

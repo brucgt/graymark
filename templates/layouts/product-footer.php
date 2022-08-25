@@ -9,8 +9,14 @@
                 <a href="<?= url('/contact') ?>" class="block px-6 py-4 bg-white text-xl text-center text-secondary-dark font-bold tracking-wide uppercase hover:brightness-90">Contact</a>
             </div>
             <div class="column socials flex flex-wrap justify-evenly items-center">
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/GraymarkInternationalSourcingCorp/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
             </div>
         </div>
+    </div>
+</div>
+<div id="fullpage" class="hidden fixed top-0 left-0 z-[100]">
+    <div class="wrapper relative bg-black bg-opacity-75 h-screen w-screen flex justify-center items-center">
+        <img src="" class="object-contain max-h-screen max-w-screen">
+        <button class="btn-close m-8 absolute top-0 right-0 bg-red-600">Close Button</button>
     </div>
 </div>

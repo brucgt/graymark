@@ -32,7 +32,6 @@ dropToggles.forEach(function(dropToggle){
 });
 
 window.addEventListener('click', function(e){   
-
   dropToggles.forEach(function(dropToggle){
     const dropDown = dropToggle.querySelector(".dropdown-menu");
     if (!dropToggle.contains(e.target)){
@@ -42,14 +41,28 @@ window.addEventListener('click', function(e){
   });
 });
 
-window.addEventListener("scroll", function() {
-  if(window.scrollY >= 150) {
-    backToTop.classList.add("visible");
-  }else {
-    backToTop.classList.remove("visible");
-  }
-});
+if (typeof backToTop !== 'undefined' && backToTop !== null) {
+  window.addEventListener("scroll", function() {
+    if(window.scrollY >= 150) {
+      backToTop.classList.add("visible");
+    }else {
+      backToTop.classList.remove("visible");
+    }
+  });
+  backToTop.addEventListener("click", function() {
+    window.scrollTo(0, 0);
+  });
+}
 
-backToTop.addEventListener("click", function() {
-  window.scrollTo(0, 0);
-})
+function hasClass(ele,cls) {
+  return !!ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
+}
+function addClass(ele, cls) {
+  if (!hasClass(ele, cls)) ele.className += " " + cls;
+}
+function removeClass(ele, cls) {
+  if (hasClass(ele, cls)) {
+    var reg = new RegExp('(\\s|^)' + cls + '(\\s|$)');
+    ele.className = ele.className.replace(reg, ' ');
+  }
+}

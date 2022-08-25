@@ -1,4 +1,5 @@
 <div class="product-nav py-4 flex overflow-x-auto snap-x snap-mandatory md:flex-wrap">
+    <script src="<?= url('assets/js/product-header.js') ?>" defer></script>
     <div class="nav-item">
         <a href="<?= url('/products') ?>" class="nav-link">
             <div class="nav-info">

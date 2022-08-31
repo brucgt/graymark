@@ -107,7 +107,7 @@
         </section>
         <section class="product-list-all w-full relative bg-[#04281C]">
             <div class="list-wrapper p-4 lg:max-w-5xl lg:mx-auto xl:px-0">
-                <h5 class="p-6 text-center text-4xl text-primary-green font-bold tracking-wider uppercase">Product List</h5>
+                <h5 class="p-6 text-center text-3xl text-primary-green font-broad font-bold tracking-wide uppercase md:text-4xl">Product List</h5>
                 <div class="products">
                     <div class="row">
                         <div class="column">

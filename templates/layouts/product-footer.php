@@ -17,6 +17,6 @@
 <div id="fullpage" class="hidden fixed top-0 left-0 z-[100]">
     <div class="wrapper relative bg-black bg-opacity-75 h-screen w-screen flex justify-center items-center">
         <img src="" class="object-contain max-h-screen max-w-screen">
-        <button class="btn-close m-8 absolute top-0 right-0 bg-red-600">Close Button</button>
+        <button class="btn-close m-8 absolute top-0 right-0 bg-black rounded-full"><i class="fa-solid fa-times px-[20px] py-4 flex justify-center items-center text-white text-xl font-semibold"></i></button>
     </div>
 </div>

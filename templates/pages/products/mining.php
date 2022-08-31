@@ -29,11 +29,11 @@
             <div class="category-content">
                 <div class="content-wrapper center-wrapper">
                     <div class="w-full my-8">
-                        <div class="relative flex flex-wrap">
-                            <div class="w-full bg-slate-600 md:w-1/2">
+                        <div class="relative flex flex-wrap shadow-md">
+                            <div class="w-full bg-slate-600 md:w-1/2 md:order-2">
                                 <img src="<?= url('assets/img/products/mineral/dsc-490-4496x3000.jpg') ?>" alt="silica-white">
                             </div>
-                            <div class="w-full p-4 border shadow-md md:w-1/2 lg:p-8">
+                            <div class="w-full p-4 border md:w-1/2 md:order-1 lg:p-8">
                                 <h6 class="text-2xl font-semibold font-broad lg:text-3xl">Silica White Quartz</h6>
                                 <div class="mb-4">
                                     <p class="text-xl font-medium lg:text-2xl">98.32% SiO<sub>2</sub></p>
@@ -48,22 +48,22 @@
                         <div class="product-gallery">
                             <h6>Product Gallery</h6>
                             <div class="gallery-container">
-                                <img src="<?= url('assets/img/products/mineral/dsc-473-554x370.jpg') ?>" alt="silica-white-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-476-554x370.jpg') ?>" alt="silica-white-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-477-554x370.jpg') ?>" alt="silica-white-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-482-4496x3000.jpg') ?>" alt="silica-white-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-487-554x370.jpg') ?>" alt="silica-white-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-491-4496x3000.jpg') ?>" alt="silica-white-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-492-554x370.jpg') ?>" alt="silica-white-gallery-item">
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-473-554x370.jpg') ?>" alt="silica-white-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-476-554x370.jpg') ?>" alt="silica-white-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-477-554x370.jpg') ?>" alt="silica-white-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-482-4496x3000.jpg') ?>" alt="silica-white-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-487-554x370.jpg') ?>" alt="silica-white-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-491-4496x3000.jpg') ?>" alt="silica-white-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-492-554x370.jpg') ?>" alt="silica-white-gallery-item"></div>
                             </div>
                         </div>
                     </div>
                     <div class="w-full">
-                        <div class="relative flex flex-wrap">
-                            <div class="w-full bg-slate-600 md:w-1/2">
+                        <div class="relative flex flex-wrap shadow-md">
+                            <div class="w-full bg-slate-600 md:w-1/2 md:order-2">
                                 <img src="<?= url('assets/img/products/mineral/dsc-5311-2000x1335.jpg') ?>" alt="silica-red">
                             </div>
-                            <div class="w-full p-4 border shadow-md md:w-1/2 lg:p-8">
+                            <div class="w-full p-4 border md:w-1/2 md:order-1 lg:p-8">
                                 <h6 class="text-2xl font-semibold font-broad lg:text-3xl">Silica Red Quartz</h6>
                                 <div class="mb-4">
                                     <p class="inline-block text-xl font-medium lg:text-2xl">94.64% SiO<sub>2</sub></p>
@@ -80,12 +80,12 @@
                         <div class="product-gallery">
                             <h6>Product Gallery</h6>
                             <div class="gallery-container">
-                                <img src="<?= url('assets/img/products/mineral/dsc-509-1108x739.jpg') ?>" alt="silica-red-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-513-1108x739.jpg') ?>" alt="silica-red-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-518-1108x739.jpg') ?>" alt="silica-red-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-548-4496x3000.jpg') ?>" alt="silica-red-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-549-1108x739.jpg') ?>" alt="silica-red-gallery-item">
-                                <img src="<?= url('assets/img/products/mineral/dsc-529-1108x739.jpg') ?>" alt="silica-red-gallery-item">
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-509-1108x739.jpg') ?>" alt="silica-red-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-513-1108x739.jpg') ?>" alt="silica-red-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-518-1108x739.jpg') ?>" alt="silica-red-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-548-4496x3000.jpg') ?>" alt="silica-red-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-549-1108x739.jpg') ?>" alt="silica-red-gallery-item"></div>
+                                <div class="gallery-item"><img src="<?= url('assets/img/products/mineral/dsc-529-1108x739.jpg') ?>" alt="silica-red-gallery-item"></div>
                             </div>
                         </div>
                     </div>

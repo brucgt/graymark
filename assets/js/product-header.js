@@ -5,7 +5,7 @@ var urlRegExp = new RegExp(url.replace(/\/$/,"") + "$");
 const docBody = document.body;
 const divFullScreen = document.getElementById("fullpage");
 const imgContainer = divFullScreen.querySelector("img");
-const imgs = document.querySelectorAll(".gallery-container img");
+const galleryItems = document.querySelectorAll(".gallery-container .gallery-item");
 
 productNavItem.forEach(function(item) {    
     if (urlRegExp.test(item.querySelector(".nav-link").href.replace(/\/$/,""))) {
@@ -13,23 +13,25 @@ productNavItem.forEach(function(item) {
     }
 });
 
-imgs.forEach(function(img) {
-    img.addEventListener("click", function() {
+galleryItems.forEach(function(item) {
+    item.addEventListener("click", function() {
         removeClass(divFullScreen, "hidden");
         docBody.style['overflow-y'] = "hidden";
-        imgContainer.src = this.src;
+        imgContainer.src = this.firstChild.src;
         addClass(divFullScreen, "block");
     });
 });
-divFullScreen.querySelector(".wrapper").addEventListener("click", function(e) { closeFullScreen(e, this); });
-divFullScreen.querySelector(".btn-close").addEventListener("click", function(e) { closeFullScreen(e, this); });
-
-function closeFullScreen(e, el) {
+divFullScreen.querySelector(".wrapper").addEventListener("click", function(e) {
     e = window.e || e; 
 
-    if(el === e.target) {
-        removeClass(divFullScreen, "block");
-        docBody.style['overflow-y'] = "visible";
-        addClass(divFullScreen, "hidden");
+    if(this === e.target) {
+        closeFullScreen();
     }
+});
+divFullScreen.querySelector(".btn-close").addEventListener("click", closeFullScreen);
+
+function closeFullScreen() {
+    removeClass(divFullScreen, "block");
+    docBody.style['overflow-y'] = "visible";
+    addClass(divFullScreen, "hidden");
 }

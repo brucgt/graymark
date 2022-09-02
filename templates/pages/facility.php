@@ -6,8 +6,18 @@
     <title>Graymark | Facilities</title>
 </head>
 
+<style>
+    .top-dev {
+        clip-path: polygon(0 0, 100% 0, 100% calc(100% - 50px), 50% 100%, 0 calc(100% - 50px));
+    }
+</style>
+
 <body>
     <?php view('layouts/header') ?>
+
+    <div class="top-dev text-center text-4xl p-10  text-white font-bold bg-[#0b201e] lg:text-7xl lg:p-20">
+        <h1>Graymark Office and Production Facilities</h1>
+    </div>
 
     <div>
         <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Our Corporate Office</h1>

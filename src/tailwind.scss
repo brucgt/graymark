@@ -94,9 +94,6 @@
 .product-header p {
     @apply text-xl font-compact font-light text-justify tracking-wide lg:text-2xl;
 }
-.product-section {
-    @apply py-4;
-}
 .product-section .product-highlight {
     @apply relative;
 }
@@ -104,7 +101,7 @@
     @apply px-4 xl:px-0;
 }
 .product-section .product-highlight .highlight-wrapper > div {
-    @apply min-h-[30vh] p-4 w-full flex justify-center items-center text-center bg-white rounded-lg border shadow-md;
+    @apply min-h-[30vh] p-4 w-full flex justify-center items-center text-center bg-white rounded-lg border shadow-xl;
 }
 .product-section .product-highlight .highlight-wrapper h6 {
     @apply text-3xl font-broad font-black tracking-wider uppercase lg:text-4xl;
@@ -126,13 +123,7 @@
     @apply grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4;
 }
 .category-content .product-gallery .gallery-container .gallery-item {
-    @apply relative cursor-pointer;   
-}
-.category-content .product-gallery .gallery-container .gallery-item::after {
-    @apply absolute hidden justify-center items-center top-0 left-0 h-full w-full bg-black bg-opacity-75 rounded-md text-white content-['\f00e'] font-['Font_Awesome_5_Free'] font-black text-7xl;
-}
-.category-content .product-gallery .gallery-container .gallery-item:hover::after {
-    @apply flex;
+    @apply relative cursor-pointer after:absolute after:hidden after:justify-center after:items-center after:top-0 after:left-0 after:h-full after:w-full after:bg-black after:bg-opacity-25 after:rounded-md after:text-white after:content-['\f002'] after:font-['Font_Awesome_5_Free'] after:font-black after:text-6xl hover:after:flex;
 }
 .category-content .product-gallery .gallery-container img {
     @apply h-full bg-gray-600 rounded-md object-cover object-center;
@@ -159,7 +150,7 @@
     @apply relative;
 }
 .product-list .list-item .item-picture img {
-    @apply min-h-[300px] md:min-h-[350px] lg:md:min-h-[500px] object-cover bg-slate-300;
+    @apply min-h-[300px] md:min-h-[350px] lg:md:min-h-[500px] object-cover bg-slate-600;
 }
 .product-list .list-item .item-info {
     @apply absolute p-4 pt-10 w-full bottom-0 bg-green-600 text-white;

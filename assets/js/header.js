@@ -8,7 +8,7 @@ const backToTop = document.querySelector(".backToTop");
 // console.log(navToggle.innerHTML);?
 navToggle.addEventListener("click", () => {
   navMenu.classList.toggle("active");
- });
+});
 
 // dropToggle.addEventListener("click", () => {
 //   dropDown.classList.toggle("active");
@@ -23,18 +23,22 @@ navToggle.addEventListener("click", () => {
 //   });
 // } 
 
-dropToggles.forEach(function(dropToggle){
+dropToggles.forEach(function (dropToggle) {
   const dropDown = dropToggle.querySelector(".dropdown-menu");
-  dropToggle.addEventListener("click", function (){
-  dropDown.classList.toggle("active");
-  dropToggle.classList.toggle("active");
+  const dropLink = dropToggle.querySelector(".nav-link");
+  dropToggle.addEventListener("click", function (e) {
+    if (e.target == dropLink) {
+      e.preventDefault();
+    }
+    dropDown.classList.toggle("active");
+    dropToggle.classList.toggle("active");
   });
 });
 
-window.addEventListener('click', function(e){   
-  dropToggles.forEach(function(dropToggle){
+window.addEventListener('click', function (e) {
+  dropToggles.forEach(function (dropToggle) {
     const dropDown = dropToggle.querySelector(".dropdown-menu");
-    if (!dropToggle.contains(e.target)){
+    if (!dropToggle.contains(e.target)) {
       dropDown.classList.remove("active");
       dropToggle.classList.remove("active");
     }
@@ -42,19 +46,22 @@ window.addEventListener('click', function(e){
 });
 
 if (typeof backToTop !== 'undefined' && backToTop !== null) {
-  window.addEventListener("scroll", function() {
-    if(window.scrollY >= 150) {
+  window.addEventListener("scroll", function () {
+    if (window.scrollY >= 150) {
       backToTop.classList.add("visible");
-    }else {
+    } else {
       backToTop.classList.remove("visible");
     }
   });
-  backToTop.addEventListener("click", function() {
-    window.scrollTo(0, 0);
+  backToTop.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   });
 }
 
-function hasClass(ele,cls) {
+function hasClass(ele, cls) {
   return !!ele.className.match(new RegExp('(\\s|^)' + cls + '(\\s|$)'));
 }
 function addClass(ele, cls) {

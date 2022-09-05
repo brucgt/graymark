@@ -8,6 +8,7 @@
 
 <body id="top">
     <?php view('layouts/header') ?>
+    
     <div>
         <div class="bg-[<?= url('assets/img/others/staff-landscape-bg-2000x1414.jpg')?>] bg-no-repeat bg-cover bg-center pt-24 md:pt-10 lg:pt-14 lg:w-2/3 xl:w-1/2 mx-auto">
             <img src="<?= url('assets/img/company/logo/graymark-high-uality-logo-3x2-no-undertext.png') ?>" alt="">
@@ -43,9 +44,11 @@
             </div>
         </div>
     </div>
-    <div class="backToTop">
+
+    <div class="backToTop cursor-pointer">
         <i class="fa-solid fa-angle-up text-3xl text-white"></i>
     </div>
+
     <?php view('layouts/footer') ?>
 </body>
 

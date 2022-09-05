@@ -19,16 +19,16 @@
             </div>
         </header>
         <section id="construction-sand" class="product-section">
-            <header class="product-highlight">
+            <header class="product-highlight" style="background: linear-gradient(to bottom, white 0%, white 50%, #CECEC6 50%, #CECEC6 100%);">
                 <div class="highlight-wrapper center-wrapper">
                     <div>
                         <h6>Construction Sand</h6>
                     </div>
                 </div>
             </header>
-            <div class="category-content">
+            <div class="category-content" style="background: #CECEC6;">
                 <div class="content-wrapper center-wrapper">
-                    <div class="w-full my-8">
+                    <div class="w-full py-8">
                         <div class="product-gallery">
                             <h6>Product Gallery</h6>
                             <div class="gallery-container">
@@ -48,16 +48,16 @@
             </div>
         </section>
         <section id="gravel" class="product-section">
-            <header class="product-highlight">
+            <header class="product-highlight" style="background: linear-gradient(to bottom, #CECEC6 0%, #CECEC6 50%, #BCBFBA 50%, #BCBFBA 100%);">
                 <div class="highlight-wrapper center-wrapper">
                     <div>
                         <h6>Gravel</h6>
                     </div>
                 </div>
             </header>
-            <div class="category-content">
+            <div class="category-content" style="background: #BCBFBA;">
                 <div class="content-wrapper center-wrapper">
-                    <div class="w-full my-8">
+                    <div class="w-full py-8">
                         <div class="product-gallery">
                             <h6>Product Gallery</h6>
                             <div class="gallery-container">
@@ -75,16 +75,16 @@
             </div>
         </section>
         <section id="sea-sand" class="product-section">
-            <header class="product-highlight">
+            <header class="product-highlight" style="background: linear-gradient(to bottom, #BCBFBA 0%, #BCBFBA 50%, #97A1A4 50%, #97A1A4 100%);">
                 <div class="highlight-wrapper center-wrapper">
                     <div>
                         <h6>Sea Sand Material</h6>
                     </div>
                 </div>
             </header>
-            <div class="category-content">
+            <div class="category-content" style="background: #97A1A4;">
                 <div class="content-wrapper center-wrapper">
-                    <div class="w-full my-8">
+                    <div class="w-full py-8">
                         <div class="product-gallery">
                             <h6>Product Gallery</h6>
                             <div class="gallery-container">
@@ -100,16 +100,16 @@
             </div>
         </section>
         <section id="boulder" class="product-section">
-            <header class="product-highlight">
+            <header class="product-highlight" style="background: linear-gradient(to bottom, #97A1A4 0%, #97A1A4 50%, #859298 50%, #859298 100%);">
                 <div class="highlight-wrapper center-wrapper">
                     <div>
                         <h6>Armour Rock & Boulder</h6>
                     </div>
                 </div>
             </header>
-            <div class="category-content">
+            <div class="category-content" style="background: #859298;">
                 <div class="content-wrapper center-wrapper">
-                    <div class="w-full my-8">
+                    <div class="w-full py-8">
                         <div class="product-gallery">
                             <h6>Product Gallery</h6>
                             <div class="gallery-container">
@@ -129,6 +129,10 @@
         </section>
 
         <?php view('layouts/product-footer') ?>
+    </div>
+
+    <div class="backToTop cursor-pointer">
+        <i class="fa-solid fa-angle-up text-3xl text-white"></i>
     </div>
 
     <?php view('layouts/footer') ?>

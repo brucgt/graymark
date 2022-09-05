@@ -191,6 +191,10 @@
         </section>
     </div>
 
+    <div class="backToTop cursor-pointer">
+        <i class="fa-solid fa-angle-up text-3xl text-white"></i>
+    </div>
+
     <?php view('layouts/footer') ?>
 </body>
 

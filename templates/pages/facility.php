@@ -43,21 +43,21 @@
 
     <div>
         <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Design and Testing Division</h1>
-        <div class="flex flex-col justify-center items-center m-auto my-5 lg:flex-row">
-            <div class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]">
-                <img class="object-cover" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
+        <div class="grid grid-cols-4 justify-center m-auto my-5 gap-4">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">R&D and Design Area</h3>
             </div>
-            <div class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]">
-                <img class="object-cover" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">Design Tailoring Area</h3>
             </div>
-            <div class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]">
-                <img class="object-cover" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">Design Tailoring Area</h3>
             </div>
-            <div class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]">
-                <img class="object-cover" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">Samples and Testing Designs</h3>
             </div>
         </div>

@@ -13,13 +13,13 @@
         <?php view('layouts/product-header') ?>
 
         <header class="product-header">
-            <div class="header-wrapper">
+            <div class="header-wrapper center-wrapper">
                 <h5>Industrial Commodities</h5>
                 <p>Graymark International Sourcing Corporation offers various types of Oil/Petrol and Cement.</p>
             </div>
         </header>
         <section class="product-list list-item-2">
-            <div class="list-wrapper">
+            <div class="list-wrapper center-wrapper">
                 <div class="list-item">
                     <div class="item-wrapper">
                         <div class="item-picture">

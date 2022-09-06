@@ -10,10 +10,12 @@
     <?php view('layouts/header') ?>
     
     <div>
-        <div class="bg-[<?= url('assets/img/others/staff-landscape-bg-2000x1414.jpg')?>] bg-no-repeat bg-cover bg-center pt-24 md:pt-10 lg:pt-14 lg:w-2/3 xl:w-1/2 mx-auto">
-            <img src="<?= url('assets/img/company/logo/graymark-high-uality-logo-3x2-no-undertext.png') ?>" alt="">
-            <h1 class="text-2xl text-center font-bold p-4 lg:text-5xl">Graymark International Sourcing Corporation</h1>
-            <a href="#main-prod"><button class="tour mt-64 sm:mt-20 md:mt-10 lg:mt-20 xl:mt-10 mb-10 hover:scale-105 transition duration-200 mx-auto block px-4 rounded-full">Main Products<br><i class="scale-x-[2] transition duration-200 fa-solid fa-angles-down"></i></button></a>
+        <div class="bg-no-repeat bg-cover bg-center" style="background-image: url('<?= url('assets/img/others/staff-landscape-bg-2000x1414.jpg')?>');">
+            <div class="text-white pt-24 md:pt-10 lg:pt-14 lg:w-2/3 xl:w-1/2 mx-auto">
+                <img src="<?= url('assets/img/company/logo/graymark-high-uality-logo-3x2-no-undertext.png') ?>" alt="">
+                <h1 class="text-2xl text-center font-bold p-4 lg:text-5xl">Graymark International Sourcing Corporation</h1>
+                <a href="#main-prod"><button class="tour mt-64 sm:mt-20 md:mt-10 lg:mt-20 xl:mt-10 pb-10 hover:scale-105 transition duration-200 mx-auto block px-4 rounded-full">Main Products<br><i class="scale-x-[2] transition duration-200 fa-solid fa-angles-down"></i></button></a>
+            </div>
         </div>
         <div id="main-prod" class="main-products bg-slate-600 text-white py-5">
             <h1 class="text-3xl text-center font-bold">MAIN PRODUCTS</h1>

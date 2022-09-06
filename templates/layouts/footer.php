@@ -39,16 +39,16 @@
             <h2 class="mb-6 text-lg font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
             <ul class="text-gray-500 dark:text-gray-400">
                 <li class="mb-4">
-                    <a href="#" class=" hover:underline">Home</a>
+                    <a href="<?= url('') ?>" class=" hover:underline">Home</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class=" hover:underline">About</a>
+                    <a href="<?= url('/about') ?>" class=" hover:underline">About</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Products</a>
+                    <a href="<?= url('/products') ?>" class="hover:underline">Products</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Contact us</a>
+                    <a href="<?= url('/contact') ?>" class="hover:underline">Contact us</a>
                 </li>
             </ul>
         </div>

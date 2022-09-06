@@ -33,7 +33,7 @@
         </div>
     </div>
 
-    <div class="p-4 md:p-10 lg:p-16">
+    <div class="flex justify-center p-4 md:p-10 lg:p-16">
         <img src="<?= url('assets/img/products/agriculture/gmfv-1500x4073.png')?>" alt="">
     </div>
     <!-- end flores -->

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Products | Graymark ISC</title>
+    <title>Products | Graymark</title>
     <?php view('layouts/head') ?>
 </head>
 

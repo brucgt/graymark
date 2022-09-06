@@ -3,7 +3,7 @@
 
 <head>
     <?php view('layouts/head') ?>
-    <title>Graymark | Facilities</title>
+    <title>Facilities | Graymark</title>
 </head>
 
 <style>
@@ -43,7 +43,7 @@
 
     <div>
         <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Design and Testing Division</h1>
-        <div class="grid grid-cols-4 justify-center m-auto my-5 gap-4">
+        <div class="grid grid-cols-1 justify-center m-auto my-5 gap-10 px-4 lg:grid-cols-2 xl:grid-cols-4 pb-6">
             <div class="rounded-md">
                 <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">R&D and Design Area</h3>

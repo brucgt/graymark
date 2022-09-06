@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Products | Graymark Market</title>
+    <title>GM Market | Graymark</title>
     <?php view('layouts/head') ?>
 </head>
 

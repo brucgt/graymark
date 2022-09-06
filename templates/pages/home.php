@@ -2,7 +2,7 @@
 <html class="scroll-smooth" lang="en">
 
 <head>
-    <title>Graymark | Home</title>
+    <title>Home | Graymark</title>
     <?php view('layouts/head') ?>
 </head>
 

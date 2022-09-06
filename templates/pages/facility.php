@@ -3,7 +3,7 @@
 
 <head>
     <?php view('layouts/head') ?>
-    <title>Graymark | Facilities</title>
+    <title>Facilities | Graymark</title>
 </head>
 
 <style>
@@ -43,21 +43,21 @@
 
     <div>
         <h1 class="text-center text-3xl font-bold my-5 lg:text-5xl lg:my-10">Design and Testing Division</h1>
-        <div class="flex flex-col justify-center items-center m-auto my-5 lg:flex-row">
-            <div>
-                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
+        <div class="grid grid-cols-1 justify-center m-auto my-5 gap-10 px-4 lg:grid-cols-2 xl:grid-cols-4 pb-6">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/img-4717-2000x1500.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">R&D and Design Area</h3>
             </div>
-            <div>
-                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/designing-1108x831.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">Design Tailoring Area</h3>
             </div>
-            <div>
-                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/5369d2f6-e767-4ac5-a96a-651a1cf9eb24-1444x640.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">Design Tailoring Area</h3>
             </div>
-            <div>
-                <img class="w-[95%] h-[300px] rounded-md sm:w-[70%] lg:m-4 lg:w-[220px] lg:h-[220px] xl:w-[280px] xl:h-[280px]" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
+            <div class="rounded-md">
+                <img class="object-cover h-full" src="<?= url('assets/img/facilities/design/outputs-1076x869.jpg') ?>" alt="">
                 <h3 class="pb-5 text-center text-xl font-bold">Samples and Testing Designs</h3>
             </div>
         </div>
@@ -69,23 +69,23 @@
             <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20" data-carousel-item="active">
-                    <img src="<?= url('assets/img/facilities/factory/stocks-1026x550.jpg') ?>" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="<?= url('assets/img/facilities/factory/stocks-1026x550.jpg') ?>" class="absolute block object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 2 -->
                 <div class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10" data-carousel-item="">
-                    <img src="<?= url('assets/img/facilities/factory/sewing-area-1026x550.jpg') ?>" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="<?= url('assets/img/facilities/factory/sewing-area-1026x550.jpg') ?>" class="absolute block object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 3 -->
                 <div class="hidden duration-700 ease-in-out absolute inset-0 transition-all transform" data-carousel-item="">
-                    <img src="<?= url('assets/img/facilities/factory/scan0024-2000x1827.jpeg') ?>" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="<?= url('assets/img/facilities/factory/scan0024-2000x1827.jpeg') ?>" class="absolute block object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 4 -->
                 <div class="hidden duration-700 ease-in-out absolute inset-0 transition-all transform" data-carousel-item="">
-                    <img src="<?= url('assets/img/facilities/factory/ironing-area-1026x550.jpg') ?>" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="<?= url('assets/img/facilities/factory/ironing-area-1026x550.jpg') ?>" class="absolute block object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
                 <!-- Item 5 -->
                 <div class="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10" data-carousel-item="">
-                    <img src="<?= url('assets/img/facilities/factory/packing-area-1026x550.jpg') ?>" class="absolute block w-full h-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <img src="<?= url('assets/img/facilities/factory/packing-area-1026x550.jpg') ?>" class="absolute block object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
                 </div>
             </div>
             <!-- Slider indicators -->

@@ -3,7 +3,7 @@
 
 <head>
     <?php view('layouts/head') ?>
-    <title>Graymark | About Us</title>
+    <title>About Us | Graymark</title>
 </head>
 
 <style>
@@ -53,7 +53,7 @@
         <h1 class="about-secondary-title">OUR DIRECTORS</h1>
     </div>
 
-    <div class="flex flex-wrap justify-center content-center m-auto">
+    <div class="flex flex-wrap justify-center content-center m-auto mb-14">
 
         <div class="about-primary-card">
             <img class="rounded-t-lg" src="<?= url("assets\img\others\profile.png") ?>" alt="">

@@ -3,7 +3,7 @@
 
 <head>
     <?php view('layouts/head') ?>
-    <title>Graymark | Contact Us</title>
+    <title>Contact Us | Graymark</title>
 </head>
 
 <body>
